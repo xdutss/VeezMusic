@@ -629,16 +629,12 @@ async def play(_, message: Message):
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
                 ]
             )
-            await message.reply_photo(
-                photo=f"{THUMB_IMG}", caption=toxxt, reply_markup=keyboard
-            )
-
-            await lel.delete()
-            # veez project
+            await lel.edit(toxxt,reply_markup=keyboard,disable_web_page_preview=True)
+            # WHY PEOPLE ALWAYS LOVE PORN ?? (A point to think)
             return
-            # veez project
+            # KONTOOOOOLLLLLLLLLLL
         except:
-            await lel.edit("__no more results to choose, starting to playing...__")
+            # await lel.edit("❌ **couldn't find song**")
 
             # print(results)
             try:
