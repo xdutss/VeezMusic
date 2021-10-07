@@ -13,19 +13,19 @@ que = {}
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME", "Veez Music")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/20147c4f049e2c1f2f248.png")
+BOT_NAME = getenv("BOT_NAME", "Batgang Music Bot")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/0f6f8a8a5ad69fe5ecf3d.png")
 THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/4c39fbb88932761913fff.png")
 AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/73e10ed6e2bd32b478de6.png")
 QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/b95c13eef1ebd14dbb458.png")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "veezmusicbot")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "veezassistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+BOT_USERNAME = getenv("BOT_USERNAME", "batgangrobot")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "@snomnjii")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "kenbotsupport")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "KennedyProject")
 # isi dengan username kamu tanpa simbol @
-OWNER_NAME = getenv("OWNER_NAME", "dlwrml")
+OWNER_NAME = getenv("OWNER_NAME", "xgothboi")
 # fill with your id as the owner of the bot
 OWNER_ID = int(os.environ.get("OWNER_ID"))
 DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
@@ -34,7 +34,7 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 # just fill with True or False (optional)
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ~ .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 # UPDATER CONFIG
 U_BRANCH = "main"
